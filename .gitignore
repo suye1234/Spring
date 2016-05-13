@@ -50,3 +50,6 @@ SpringJms/.springBeans
 *.classpath
 *.project
 */target/*
+*/.idea/*
+*.idea/*
+*.iml
