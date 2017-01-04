@@ -1,7 +1,7 @@
 /**
  * 
  */
-package springboot;
+package org.suye.spring4.springboot;
 
 import static org.junit.Assert.assertEquals;
 

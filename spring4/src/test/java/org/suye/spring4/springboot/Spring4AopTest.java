@@ -1,4 +1,4 @@
-package springboot;
+package org.suye.spring4.springboot;
 
 import org.junit.Assert;
 import org.junit.Test;
