@@ -6,6 +6,10 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <modules>
+        <module>spring4</module>
+    </modules>
+
     <properties>
         <!-- Generic Properties-->
         <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
@@ -13,6 +17,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <maven-svn-revision-number-plugin.version>1.7</maven-svn-revision-number-plugin.version>
+        <svn.revision>1.7</svn.revision>
 
         <!-- Maven Plugin-->
         <maven.compile.source>1.8</maven.compile.source>
