@@ -61,6 +61,21 @@
             <artifactId>ojdbc6</artifactId>
             <version>11.2.0.4</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.23</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
+        <dependency>
+            <groupId>org.freemarker</groupId>
+            <artifactId>freemarker</artifactId>
+            <version>2.3.23</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -72,5 +87,27 @@
         </plugins>
     </build>
 
+
+    <!-- 私有仓库 -->
+    <repositories>
+        <repository>
+            <id>public</id>  <!--这个ID需要与你的组group ID一致-->
+            <name>Public Repository</name>
+            <url>http://192.168.99.100:8081/nexus/content/groups/public</url>
+        </repository>
+    </repositories>
+
+    <!-- 打包发布 -->
+    <distributionManagement>
+        <repository>
+            <id>releases</id><!--这个ID需要与你的release仓库的Repository ID一致-->
+            <url>http://192.168.99.100:8081/nexus/content/repositories/releases</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>snapshots</id><!--这个ID需要与你的snapshots仓库的Repository ID一致-->
+            <url>http://192.168.99.100:8081/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>
