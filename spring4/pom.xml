@@ -4,6 +4,7 @@
     <groupId>org.suye.spring</groupId>
     <artifactId>spring4</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>war</packaging>
 
     <name>spring4</name>
 
@@ -174,7 +175,6 @@
                         </manifest>
                         <manifestEntries>
                             <Build-Time>${maven.build.timestamp}</Build-Time>
-                            <SCM-Revision>${svn.revision}</SCM-Revision>
                             <X-Compile-Source-JDK>${maven.compile.source}</X-Compile-Source-JDK>
                             <X-Compile-Target-JDK>${maven.compile.target}</X-Compile-Target-JDK>
                         </manifestEntries>
