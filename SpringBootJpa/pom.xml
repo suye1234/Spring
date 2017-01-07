@@ -56,6 +56,7 @@
             <scope>test</scope>
         </dependency>
 
+
         <dependency>
             <groupId>com.oracle</groupId>
             <artifactId>ojdbc6</artifactId>
@@ -93,7 +94,7 @@
         <repository>
             <id>public</id>  <!--这个ID需要与你的组group ID一致-->
             <name>Public Repository</name>
-            <url>http://10.37.129.2:8081/nexus/content/groups/public</url>
+            <url>http://10.37.129.2:8081/nexus/content/groups/public/</url>
         </repository>
     </repositories>
 
