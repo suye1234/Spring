@@ -18,7 +18,7 @@ public class DemoAnnotationController {
     @RequestMapping(produces = "text/plain;charset=UTF-8")
     public @ResponseBody String index(HttpServletRequest request){
 
-        return "url:" + request.getRequestURL() + " can access , Chaned";
+        return "url:" + request.getRequestURL() + " can access , Changed";
     }
 
 
