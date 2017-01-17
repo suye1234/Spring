@@ -9,7 +9,7 @@ package org.suye.spring4.javaconfig;
  */
 public class FunctionService {
 	public String sayHello(String word){
-		return "Hello " + word;
+		return "config.groovy.Hello " + word;
 	}
 	
 }

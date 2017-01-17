@@ -18,7 +18,7 @@ public class Spring4DiTest {
 		
 		String word = "World";
 		
-		assertEquals("Hello World", useFunctionService.sayHello(word));
+		assertEquals("config.groovy.Hello World", useFunctionService.sayHello(word));
 		
 		annotationContext.close();
 	}
@@ -31,7 +31,7 @@ public class Spring4DiTest {
 		
 		String word = "World";
 		
-		assertEquals("Hello World", useFunctionService.sayHello(word));
+		assertEquals("config.groovy.Hello World", useFunctionService.sayHello(word));
 		
 		annotationContext.close();
 	}
